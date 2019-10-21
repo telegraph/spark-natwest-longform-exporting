@@ -176,84 +176,66 @@ export const retainTalent = [
 export const verticalSlider = [
   {
     copy:
-      'Only 25pc of respondents put strategic plans for the business for the next five years at the top of their agendas (based on interviews with 110 UK manufacturers)',
+      'Tariffs are taxes imposed by governments on products imported from another country',
     coordTop: '6',
     coordRight: '60',
   },
   {
     copy:
-      'Most businesses are still fairly optimistic about their journey, with 60pc saying they felt optimistic overall (although 44pc are only “fairly optimistic”).',
+      'In theory, tariffs make consumers buy locally produced goods by adding to the price of imports',
     coordTop: '12',
     coordRight: '15',
   },
   {
     copy:
-      'A large majority (80pc) of respondents say that innovation is crucial to be competitive in the next five years',
+      'They have become a major political issue in the Brexit process because of uncertainty over the tariffs that will be charged on British goods when the UK leaves the EU',
     coordTop: '21',
     coordRight: '42',
   },
   {
     copy:
-      'Only 15pc of businesses put innovation and research at the top of their agenda',
+      'Worries over a trade war are also affecting the global economy after US President Donald Trump introduced a 10pc tariff affecting £150bn of Chinese imports',
     coordTop: '32',
     coordRight: '20',
   },
   {
     copy:
-      '73pc of respondents agreed that collaboration with the supply chain would become more important in future',
+      'Tariffs are seen as protectionist, part of a policy of restricting international trade to boost a domestic economy',
     coordTop: '43',
     coordRight: '65',
   },
   {
     copy:
-      '£141.5bn in GDP growth could be lost due to Britain’s digital skills gap, according to Accenture',
+      'Protectionist policies can drive up prices for consumers and harm trade if other countries retaliate with their own tariffs',
     coordTop: '54',
     coordRight: '30',
-  },
-  {
-    copy:
-      '81pc of employees believe that the skills they need to do their job will change in the next five years, according to City & Guilds Group research',
-    coordTop: '65',
-    coordRight: '54',
-  },
-  {
-    copy:
-      '40pc of IT spending in 2019 is set to be on digital transformation, according to IDC',
-    coordTop: '76',
-    coordRight: '10',
   },
 ];
 
 export const flipBoardData = [
   {
-    img: ai,
-    title: 'Artificial intelligence',
-    copy: 'AI uses algorithms to find patterns in large sets of data (for example, from customer interactions)',
+    title: '46pc of UK exports, EU, £274bn',
+    copy: 'Cars and other road vehicles make up 43pc of UK exports to the EU. The EU’s share of UK trade has declined – in 2002, the EU accounted for 55pc of UK exports. Ten of the UK’s top 25 export markets are in the EU.[DC(&M2]',
   },
   {
-    img: chatbots,
-    title: 'Chatbots',
-    copy: 'AI-enabled software that can simulate chats with users through instant messaging systems, apps or on the phone. They streamline customer interactions and can improve operational efficiency.',
+    title: '19pc of UK exports, US, £118bn',
+    copy: 'The US accounts for 28pc of UK exports of business services including legal, accounting and professional services. It also imports a lot of British-made cars.',
   },
   {
-    img: revolution,
-    title: 'The Fourth Industrial Revolution',
-    copy: 'Also known as 4IR, it refers to a change in the way manufacturing works, with sensors and smart factories used to deliver more information to companies',
+    title: '4pc of UK exports, China, £23.1bn',
+    copy: 'Britain has a small trade surplus on trade in services (such as business services) to China, but imports many Chinese-made goods.',
   },
   {
-    img: iot,
-    title: 'Internet of things',
-    copy: 'Connected objects, such as sensors, that can allow businesses to gather data, for example from smart factories)',
+    title: '3.1pc of UK exports, Switzerland, £19.6bn',
+    copy: 'Switzerland has been the highest growth market for UK exports over the past decade after China, with business services in particular seeing progress. Switzerland is the UK’s third-largest non-EU market.',
   },
   {
-    img: dataMining,
-    title: 'Data mining',
-    copy: 'How companies can examine large data sets, for instance the behaviour of customers, to find patterns and innovate',
+    title: '2.3pc of UK exports, Japan, £14.3bn',
+    copy: 'British high street stores such as Lush, Ted Baker, Burberry and Fortnum & Mason have arrived in Japan – but it’s not just limited to the high street, with specialist companies such as Brewdog making  inroads too[DC(&M3] .',
   },
   {
-    img: print,
-    title: '3D printing',
-    copy: 'Also known as additive manufacturing, a process where devices can print three-dimensional objects, which can considerably lower the cost of manufacturing',
+    title: '1.3pc of UK exports in 2018, India, £8bn',
+    copy: 'Exports to India have risen from 0.9pc in 1999, with trade in goods and business services growing rapidly in recent years.',
   },
 ];
 

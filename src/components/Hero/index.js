@@ -17,14 +17,12 @@ function Hero() {
     <div className="hero">
       <div className={`hero__content ${loaded ? 'visible' : ''}`}>
         <h1>
-          Future-proofing
+        Why exporting
           <br />
-          your business
+          is big business for the UK
         </h1>
         <p>
-          It has never been more important for companies to embrace
-          the digital revolution – and with savvy investments and clever
-          collaboration, the future is bright
+          The seemingly interminable debates over Brexit have overshadowed an important fact: British exports are booming, with record-breaking highs in exports of goods and services over the past two years
         </p>
       </div>
       <div className={`hero__art ${loaded ? 'visible-art' : ''}`}>

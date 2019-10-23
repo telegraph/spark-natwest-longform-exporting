@@ -39,6 +39,7 @@ import collaborate from './assets/titles/collaborate.svg';
 import success from './assets/titles/success.svg';
 import change from './assets/titles/change.svg';
 import innovation from './assets/titles/innovation.svg';
+import benefits from './assets/titles/benefits.svg';
 
 
 function App() {
@@ -76,7 +77,7 @@ function App() {
         <AnimationTrigger>
           <p>
             <Dropcap>I</Dropcap>
-            In the year to May 2019, British exports hit £647.1bn, with goods exports rising 4.7pc to £357.1bn.
+            n the year to May 2019, British exports hit £647.1bn, with goods exports rising 4.7pc to £357.1bn.
           </p>
           <p>
             And the UK services sector enjoyed a 3.3pc increase in exports, bringing the UK’s trade surplus in services to £107.3bn.
@@ -96,19 +97,19 @@ function App() {
         </AnimationTrigger>
       </Pagebody>
       <VerticalSlider />
-      <Pagebody title="The benefits of exporting" img={climate}>
+      <Pagebody title="The benefits of exporting" img={benefits}>
         <AnimationTrigger>
-        <p>
-        The benefits of exporting do not begin and end with simply finding new customers, explains Mr Salter, of NatWest.
+          <p>
+            The benefits of exporting do not begin and end with simply finding new customers, explains Mr Salter, of NatWest.
         </p>
-        <p>
-          He says: “Selling your goods to other countries will lessen your dependence on your domestic market. You are spreading your risk and the fate of your business no longer relies solely on local contracts.”
+          <p>
+            He says: “Selling your goods to other countries will lessen your dependence on your domestic market. You are spreading your risk and the fate of your business no longer relies solely on local contracts.”
         </p>
         </AnimationTrigger>
         <AnimationTrigger>
           <Pullquote notopborder>
             <h3>
-            Reduced production costs
+              Reduced production costs
             </h3>
             <p>
               “If the foreign market is big enough, this demand could help you reduce your production costs and increase your profit margin further,” explains Mr Salter. Your price per unit of manufacture may benefit from economies of scale, but this needs to be offset against the increased costs of distribution[MC(M1] .”
@@ -121,7 +122,7 @@ function App() {
               More resilience
             </h3>
             <p>
-            Companies that export goods are more resilient when recessions strike, says Stuart Lisle, tax partner at business advisory company BDO. When business slows down in one territory, exporters can find greater opportunities elsewhere, he says. “The more markets a business sells into, the less impacted they are when certain markets aren’t doing as well, making them more economically resilient.”
+              Companies that export goods are more resilient when recessions strike, says Stuart Lisle, tax partner at business advisory company BDO. When business slows down in one territory, exporters can find greater opportunities elsewhere, he says. “The more markets a business sells into, the less impacted they are when certain markets aren’t doing as well, making them more economically resilient.”
             </p>
           </Pullquote>
         </AnimationTrigger>
@@ -139,7 +140,7 @@ function App() {
         <AnimationTrigger>
           <Pullquote notopborder>
             <h3>
-            Increased productivity
+              Increased productivity
             </h3>
             <p>
               Making the decision to export delivers benefits very quickly, and they continue over time, says Lesley Batchelor, director-general of the Institute of Export & International Trade.
@@ -151,37 +152,204 @@ function App() {
       </Pagebody>
       <Flipboard />
       <Pagebody
-        title="How to take the right risks for your business to survive"
+        title="How to start exporting"
         img={risks}
       >
         <AnimationTrigger>
+          <Pullquote notopborder>
+            <h3>
+              Do your research
+            </h3>
+            <p>
+              Businesses need to make sure they know the landscape when it comes to foreign exchange and local regulations, says Ms Batchelor.
+
+              She says: “There can be surprises on foreign exchange if you don’t seek help early – and I mean at the quotation stage. Another issue could be non-tariff barriers such as protectionist measures or hidden regulations. The Government has launched a trade remedies body to help if businesses find anything too difficult to work with.”
+            </p>
+          </Pullquote>
+        </AnimationTrigger>
+        <AnimationTrigger>
+          <Pullquote notopborder>
+            <h3>
+              Start small
+            </h3>
+            <p>
+              There is a wealth of assistance available for companies hoping to export, says Mr Salter. “Most high street banks have a range of trade finance products that are not only designed to help fund export contracts but also protect against non-payment or late payment from your trading partner.
+
+              “There is also a range of specialist organisations such as the Institute of Export, Bexa (the British Exporters Association) and many local chambers of commerce who can advise on the pitfalls to avoid and provide guidelines on how to begin or increase your exporting activity.”
+            </p>
+          </Pullquote>
+        </AnimationTrigger>
+        <AnimationTrigger>
+          <Pullquote notopborder>
+            <h3>
+              Do not miss out on available help
+            </h3>
+            <p>
+              There is a wealth of assistance available for companies hoping to export, says Mr Salter. “Most high street banks have a range of trade finance products that are not only designed to help fund export contracts but also protect against non-payment or late payment from your trading partner.
+
+              “There is also a range of specialist organisations such as the Institute of Export, Bexa (the British Exporters Association) and many local chambers of commerce who can advise on the pitfalls to avoid and provide guidelines on how to begin or increase your exporting activity.”
+            </p>
+          </Pullquote>
+        </AnimationTrigger>
+        <AnimationTrigger>
+          <Pullquote notopborder>
+            <h3>
+              Make contacts
+            </h3>
+            <p>
+              British embassies, and other businesses, can help companies make the contacts they need to start exporting, says Mr Salter.
+  
+              He says: “British embassies organise missions in their locations for UK businesses to go and visit export destinations and trade fairs, meet prospective clients and gain valuable information about the market. In a similar fashion, NatWest has begun ‘virtual missions’ for its clients to interact with experts on foreign markets in countries they are interested in exporting to.”
+            </p>
+          </Pullquote>
+        </AnimationTrigger>
+        <AnimationTrigger>
+          <Pullquote notopborder>
+            <h3>
+              Make sure there are no financial surprises
+            </h3>
+            <p>
+              The financial side of exporting can be complicated, so it pays to understand this first, says Mr Taylor. “When it comes to exporting, it isn’t always enough to have a great product or service.
+
+              “Companies can face a number of financial constraints when securing and fulfilling export contracts without the right backing. This can include working capital challenges, bond requirements from their overseas customers or not being able to access credit insurance to sell to a particular market.”
+            </p>
+          </Pullquote>
         </AnimationTrigger>
       </Pagebody>
-      <VerticalSlider />
+      <BasicSlider title="Global business customs exporters need to know" dataProp={basicSlider} columns={false} />
       <Pagebody
-        title="Why businesses need to collaborate"
-        img={collaborate}
-      >
-      </Pagebody>
-      <BasicSlider title="How to future-proof your company" dataProp={basicSlider} columns={false} />
-      <Pagebody
-        title="Five of the most successful cross-sector collaborations"
+        title="How can your business overcome challenges to exporting?"
         img={success}
       >
-        
+        <AnimationTrigger>
+          <p>
+            The battles about the Brexit process are making life difficult for exporters, but there are ways to cope, says Mr Salter.
+          </p>
+        </AnimationTrigger>
+        <AnimationTrigger>
+          <Pullquote notopborder>
+            <h3>
+              Stay on top of your sector
+            </h3>
+            <p>
+              “Brexit is causing a great deal of uncertainty. It’s not stopping companies from trading, but many are putting contingency plans in place, for instance, in case supply into or out of the UK is disrupted.”
+
+              Mr Salter points out that there are measures that companies can take to prepare for a possible no-deal Brexit.
+
+              He says: “The best guidance to give here is to regularly check the Government’s Department for International Trade website and those of organisations such as chambers of commerce and the Institute of Export – as well as any sector-based trade organisations, such as the SMMT [Society of Motor Manufacturers and Traders] in the automotive sector, who may have sector-specific advice.”
+
+              It is wise to keep an eye on current affairs more generally, Mr Salter adds, as trade policies can impact exporters. “British exports in many industry sectors are held in high regard and demanded in many foreign markets. There are strong benefits to tapping into a new export market.”
+            </p>
+          </Pullquote>
+        </AnimationTrigger>
+        <AnimationTrigger>
+          <Pullquote notopborder>
+            <h3>
+              Trademark your offering
+            </h3>
+            <p>
+              Exporting can throw up other unexpected challenges, such as theft of intellectual property, says Robert Phillips, senior lecturer in entrepreneurship at Alliance Manchester Business School.
+
+              Dr Philips says: “Specific problems could include language barriers, finding a way to advertise to customers, regulations, unexpected taxes, finding appropriate trusted partners in the host country, exchange rate fluctuations and potential theft of IP [intellectual property] – especially patent and trademark – in countries that don’t follow WIPO [World Intellectual Property Organization] rules.”
+
+              He adds that currency fluctuations can also pose a threat to companies with low profit margins. “Often companies begin to export when exchange rates are favourable and the picture looks very profitable, but of course it can fluctuate.”
+            </p>
+          </Pullquote>
+        </AnimationTrigger>
+        <AnimationTrigger>
+          <Pullquote notopborder>
+            <h3>
+              Plan, plan, plan
+            </h3>
+            <p>
+              In a post-Brexit world, research and planning should help British to stay on the right track, says Ms Batchelor.
+
+              “Businesses that already trade with markets outside the EU are used to the trading regimes and paperwork needed to succeed. British exporters must find out what their responsibilities are, what they need to register for, any compliance issues they have with the market they are working with and how to get paid.
+
+              “All these issues are covered by investing in training in these matters and also research and planning. Exporting is not a one-off but a planned approach to growing a business – and unfortunately, making a quick buck doesn’t bring sustainable growth.”
+            </p>
+          </Pullquote>
+        </AnimationTrigger>
       </Pagebody>
+      <Slider />
       <Pagebody
-        title="How different sectors are adapting to digital change"
+        title="Six trends to help future-proof your export business"
         img={change}
         noPadding
       >
+        <AnimationTrigger>
+          <Pullquote notopborder>
+            <h3>
+            E-commerce
+            </h3>
+            <p>
+            Britain has a highly advanced e-commerce landscape, and the technology sector looks set to continue to be central to Britain’s growth. 
 
-      </Pagebody>
-      <BasicSlider title="Meet the businesses at the forefront of the digital revolution" dataProp={forefront} columns />
-      <Pagebody
-        title="Innovation is a team sport"
-        img={innovation}
-      >
+            E-commerce sales by UK businesses with 10 employees or more were £560bn in 2017, rising from £484bn in 2016, according to the Office for National Statistics. 
+            </p>
+          </Pullquote>
+        </AnimationTrigger>
+        <AnimationTrigger>
+          <Pullquote notopborder>
+            <h3>
+            Service industries
+            </h3>
+            <p>
+              Business and financial services will become ever more important to Britain’s economic future.
+ 
+              Services exports grew from 6pc of GDP in 1990 to 12pc of GDP in 2013, according to PwC research.
+            </p>
+          </Pullquote>
+        </AnimationTrigger>
+        <AnimationTrigger>
+          <Pullquote notopborder>
+            <h3>
+              Slowing EU exports
+            </h3>
+            <p>
+              The EU remains Britain’s largest trading partner, but the proportion of Britain’s exports going to the EU has slowly dropped, from 55pc in 2006 to 46pc in 2018, according to the Office for National Statistics. 
+
+              Several trends underlie this, including some EU countries’ poor recovery from the financial crisis. Britain’s exports briefly dropped from 30.5pc of GDP in 2011 to 27.2pc in 2015, driven in part by a post-recession weakness in exports to the EU.
+            </p>
+          </Pullquote>
+        </AnimationTrigger>
+        <AnimationTrigger>
+          <Pullquote notopborder>
+            <h3>
+              Emerging markets
+            </h3>
+            <p>
+              Emerging markets such as India, Taiwan and Nigeria offer new opportunities for British exporters as their economies grow. 
+
+              Such markets are a promising avenue for enterprising British companies, says Lesley Batchelor, director-general of the Institute of Export & International Trade.
+              Batchelor says: “They need careful research and planning. These markets are complex in terms of paperwork,registrations, compliance and logistics.”
+            </p>
+          </Pullquote>
+        </AnimationTrigger>
+        <AnimationTrigger>
+          <Pullquote notopborder>
+            <h3>
+            The UK Export Strategy
+            </h3>
+            <p>
+            In 2017, exports accounted for 30pc of Britain’s GDP, leading the Government to announce an ambitious goal to drive this towards 35pc via a campaign to educate, connect and finance small businesses. 
+
+            In a statement, the Department for International Trade said: “Our ambition is to strengthen our position as one of the 21st century’s great trading nations.”
+            </p>
+          </Pullquote>
+        </AnimationTrigger>
+        <AnimationTrigger>
+          <Pullquote notopborder>
+            <h3>
+            Brexit
+            </h3>
+            <p>
+              The full implications of Brexit remain to be finalised, but it will mark an important shift for British companies, says Ms Batchelor, who believes that companies already working in other markets should be able to adapt.
+ 
+              She says: “Businesses that already trade with markets outside the EU are used to the trading regimes and paperwork needed to succeed.”
+            </p>
+          </Pullquote>
+        </AnimationTrigger>
       </Pagebody>
       <CTA>
         <p>To find out more about getting your business future fit, visit the NatWest Business Hub</p>

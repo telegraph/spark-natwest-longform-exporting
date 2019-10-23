@@ -64,7 +64,7 @@ function Slider({ link }) {
   return (
     <div className="slider" id={link || ''}>
       <h2 className="slider__title">
-        Transforming our business landscape
+        How to get information on exporting
       </h2>
       <div className="slider__bg" />
       <div className="slider__container" ref={container}

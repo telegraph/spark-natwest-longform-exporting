@@ -95,29 +95,23 @@ export const FiveGTimeline = [
 
 export const shopSlider = [
   {
-    title: 'Artificial intelligence',
-    copy: 'AI and machine learning are changing the way companies do business in many sectors, allowing companies to rapidly learn from their customers by crunching big data',
+    copy: 'The website Open to Export (opentoexport.com) has free advice on most aspects of exporting, including how to select markets, reach customers and get paid.',
   },
   {
-    title: 'Automation',
     copy:
-      'Robotic process automation is affecting every area of business from financial systems to customer service delivered via chatbots',
+      'The Department for International Trade website gov.uk/government/organisations/department-for-international-trade) has in-depth advice for exporters, including how to create an export plan, manage payment and do business in other countries.',
   },
   {
-    title: 'Circular economy',
-    copy: 'Increased reuse and recycling of old products is becoming a goal for companies in many sectors, as consumers demand to buy from sustainable businesses',
+    copy: 'The Institute of Export & International Trade website (export.org.uk) offers free tips for non-members.',
   },
   {
-    title: 'Fintech',
-    copy: 'Fintech start-ups are disrupting the markets of traditional banks, and also making it easier for businesses to seek investment in non-traditional ways',
+    copy: 'Businesses hoping to export should speak to the Department for International Trade (DIT). ',
   },
   {
-    title: 'Smart cities and offices',
-    copy: 'Smart buildings equipped with sensors are helping businesses to control energy use effectively',
+    copy: 'Local chambers of commerce and British embassies can also offer useful information to companies hoping to export goods or services.',
   },
   {
-    title: 'Sustainable energy',
-    copy: 'Consumers increasingly want to buy from businesses that are sustainable, with giants such as Apple having shifted to using 100pc renewable energy worldwide',
+    copy: 'CTA: For more information visit the NatWest Rethinking Business Hub.',
   },
 ];
 
@@ -241,27 +235,18 @@ export const flipBoardData = [
 
 export const basicSlider = [
   {
-    img: mondiHeadshot, logo: mondiLogo, title: 'Peter Oswald, chief executive, Mondi Group', copy: '“It is not technology, but the intelligent application of technology that helps to answer business questions. We should not become too dazzled by digitalisation. It is not an answer in itself, but an enabler. Like all enablers, it is only as smart as the people using it.”',
+    img: mondiHeadshot, logo: mondiLogo, title: 'Japan', copy: '“Bowing is customary in several countries. In Japan it is the basic way of greeting people in a business context, instead of shaking hands”',
   },
   {
-    img: straightHeadshot, logo: straightLogo, title: 'Aalok Y Shukla, Straight Teeth Direct', copy: '“You have to have a vision for your business. You have to think, ‘What capabilities do I have now, and what capabilities do other people have, that I’d like to acquire?’ You can look at partners and your network and you can figure out, \'How can I add that?’ ”',
+    img: straightHeadshot, logo: straightLogo, title: 'India', copy: 'Saying “no” can be considered rude, so try to talk around problems and be vague rather than outright negative.',
   },
   {
-    img: smartHeadshot, logo: books, title: 'Erica Wolfe-Murray, author of Simple Tips, Smart Ideas', copy: '“Many companies operate in a silo, focused on doing the do rather than second-guessing what is coming down the tracks towards them. Having their radar constantly on is critical – working collaboratively with suppliers, networking with competitors, with universities, with emergent disruptors, with corporate venture partners.”',
+    img: smartHeadshot, logo: books, title: 'Dubai', copy: 'In many Middle Eastern countries, it is quite normal to make guests wait.',
   },
   {
-    img: futureBrandHeadshot, logo: futureBrandLogo, title: 'Jon Tipple, Future Brand', copy: '“To do what you say, practise what you preach. Regardless of business size, the process of future-proofing starts with a commitment to align corporate purpose with everyday experience for all stakeholders – employees, investors, customers, consumers and so on.”',
+    img: futureBrandHeadshot, logo: futureBrandLogo, title: 'Spain', copy: 'In Spanish law, verbal contracts can be legally binding, so be careful what you say.',
   },
   {
-    img: imperialHeadshot, logo: imperialLogo, title: 'Nelson Phillips, professor of strategy and innovation at Imperial College Business School', copy: '“Make sure to hire and integrate Generate X members of staff. Their perspective provides an important challenge to old ways of thinking and offers some insight into where politics and societal concerns and interests are going.”',
+    img: imperialHeadshot, logo: imperialLogo, title: 'France', copy: 'Be formal, especially on the first meeting, and address people as “Monsieur” and “Madame”.',
   },
-  {
-    img: metapraxisHeadshot, logo: metapraxisLogo, title: 'Simon Bittlestone, chief executive, Metapraxis', copy: '“It starts with building the right skills and experience in the team, but there are also other practical steps businesses can take. Conducting a strategic market review and mapping the skills and experiences the business already has against those it needs will help paint a fuller picture of what resources they have right now.”',
-  },
-  {
-    img: contentGuruHeadShot, logo: contentGuruLogo, title: 'Martin Taylor, deputy chief executive, Content Guru', copy: '“The key is to embrace technology, rather than thinking of it as a threat – especially a threat to jobs. No technology has ever created unemployment in the long term. It has only ever driven increased productivity, innovation and a superior experience.”',
-  },
-  {
-    img: podHeadshot, logo: podLogo, title: 'Charles Towers-Clark, group chief executive of Pod Group', copy: '“Businesses need to put employees before anything else – including shareholders and customers. By creating an employee-first workplace that encourages people to use emotional intelligence and take initiative and responsibility, companies will witness an improvement in their bottom line.”',
-  },
-]
+];

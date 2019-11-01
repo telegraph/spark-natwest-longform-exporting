@@ -40,38 +40,18 @@ import success from './assets/titles/success.svg';
 import change from './assets/titles/change.svg';
 import innovation from './assets/titles/innovation.svg';
 import benefits from './assets/titles/benefits.svg';
+import exporting from './assets/titles/exporting.svg';
 
 
 function App() {
-  const [progress, setProgress] = useState(0);
-
-  const changeProgress = () => {
-    window.requestAnimationFrame(() => {
-      let progressState = progress;
-      const docHeight = document.body.scrollHeight;
-      const scrolled = window.scrollY + window.innerHeight;
-      const difference = docHeight + scrolled;
-      const percentage = difference / docHeight - 1;
-      progressState = percentage;
-      setProgress(progressState);
-    });
-  };
-
-  useEffect(() => {
-    // on update
-    document.addEventListener('scroll', changeProgress);
-    return function cleanup() {
-      document.removeEventListener('scroll', changeProgress);
-    };
-  });
-
+  
   useEffect(() => {
     analytics.send('App Loaded');
   }, []);
 
   return (
     <>
-      <Header progress={progress} />
+      <Header />
       <Hero />
       <Pagebody>
         <AnimationTrigger>
@@ -198,7 +178,7 @@ function App() {
             </h3>
             <p>
               British embassies, and other businesses, can help companies make the contacts they need to start exporting, says Mr Salter.
-  
+
               He says: “British embassies organise missions in their locations for UK businesses to go and visit export destinations and trade fairs, meet prospective clients and gain valuable information about the market. In a similar fashion, NatWest has begun ‘virtual missions’ for its clients to interact with experts on foreign markets in countries they are interested in exporting to.”
             </p>
           </Pullquote>
@@ -280,23 +260,23 @@ function App() {
         <AnimationTrigger>
           <Pullquote notopborder>
             <h3>
-            E-commerce
+              E-commerce
             </h3>
             <p>
-            Britain has a highly advanced e-commerce landscape, and the technology sector looks set to continue to be central to Britain’s growth. 
-
-            E-commerce sales by UK businesses with 10 employees or more were £560bn in 2017, rising from £484bn in 2016, according to the Office for National Statistics. 
+              Britain has a highly advanced e-commerce landscape, and the technology sector looks set to continue to be central to Britain’s growth.
+  
+              E-commerce sales by UK businesses with 10 employees or more were £560bn in 2017, rising from £484bn in 2016, according to the Office for National Statistics.
             </p>
           </Pullquote>
         </AnimationTrigger>
         <AnimationTrigger>
           <Pullquote notopborder>
             <h3>
-            Service industries
+              Service industries
             </h3>
             <p>
               Business and financial services will become ever more important to Britain’s economic future.
- 
+
               Services exports grew from 6pc of GDP in 1990 to 12pc of GDP in 2013, according to PwC research.
             </p>
           </Pullquote>
@@ -307,7 +287,7 @@ function App() {
               Slowing EU exports
             </h3>
             <p>
-              The EU remains Britain’s largest trading partner, but the proportion of Britain’s exports going to the EU has slowly dropped, from 55pc in 2006 to 46pc in 2018, according to the Office for National Statistics. 
+              The EU remains Britain’s largest trading partner, but the proportion of Britain’s exports going to the EU has slowly dropped, from 55pc in 2006 to 46pc in 2018, according to the Office for National Statistics.
 
               Several trends underlie this, including some EU countries’ poor recovery from the financial crisis. Britain’s exports briefly dropped from 30.5pc of GDP in 2011 to 27.2pc in 2015, driven in part by a post-recession weakness in exports to the EU.
             </p>
@@ -319,7 +299,7 @@ function App() {
               Emerging markets
             </h3>
             <p>
-              Emerging markets such as India, Taiwan and Nigeria offer new opportunities for British exporters as their economies grow. 
+              Emerging markets such as India, Taiwan and Nigeria offer new opportunities for British exporters as their economies grow.
 
               Such markets are a promising avenue for enterprising British companies, says Lesley Batchelor, director-general of the Institute of Export & International Trade.
               Batchelor says: “They need careful research and planning. These markets are complex in terms of paperwork,registrations, compliance and logistics.”
@@ -329,23 +309,23 @@ function App() {
         <AnimationTrigger>
           <Pullquote notopborder>
             <h3>
-            The UK Export Strategy
+              The UK Export Strategy
             </h3>
             <p>
-            In 2017, exports accounted for 30pc of Britain’s GDP, leading the Government to announce an ambitious goal to drive this towards 35pc via a campaign to educate, connect and finance small businesses. 
-
-            In a statement, the Department for International Trade said: “Our ambition is to strengthen our position as one of the 21st century’s great trading nations.”
+              In 2017, exports accounted for 30pc of Britain’s GDP, leading the Government to announce an ambitious goal to drive this towards 35pc via a campaign to educate, connect and finance small businesses.
+  
+              In a statement, the Department for International Trade said: “Our ambition is to strengthen our position as one of the 21st century’s great trading nations.”
             </p>
           </Pullquote>
         </AnimationTrigger>
         <AnimationTrigger>
           <Pullquote notopborder>
             <h3>
-            Brexit
+              Brexit
             </h3>
             <p>
               The full implications of Brexit remain to be finalised, but it will mark an important shift for British companies, says Ms Batchelor, who believes that companies already working in other markets should be able to adapt.
- 
+
               She says: “Businesses that already trade with markets outside the EU are used to the trading regimes and paperwork needed to succeed.”
             </p>
           </Pullquote>

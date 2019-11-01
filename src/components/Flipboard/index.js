@@ -9,7 +9,7 @@ import './index.scss';
 export default function Flipboard() {
   return (
     <div className="flipboard">
-      <h2>Which tech terms do you need to know about?</h2>
+      <h2>Trading places: where does the UK export to?</h2>
       <div className="flipboard__container">
         {flipBoardData.map(board => (
           <Board {...board} />

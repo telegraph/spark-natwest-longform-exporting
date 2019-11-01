@@ -21,28 +21,11 @@ import iot from './assets/flip/iot.svg';
 import revolution from './assets/flip/revolution.svg';
 
 // case studies slider
-import contentGuruLogo from './assets/case-studies/content-guru/logo_content.png';
-import contentGuruHeadShot from './assets/case-studies/content-guru/martin_content.png';
-
-import futureBrandLogo from './assets/case-studies/future-brand/logo_futurebrand.png';
-import futureBrandHeadshot from './assets/case-studies/future-brand/jon_futurebrand.png';
-
-import imperialLogo from './assets/case-studies/imperial-college/logo_imperial.png';
-import imperialHeadshot from './assets/case-studies/imperial-college/nelson_imperial.png';
-
-import metapraxisLogo from './assets/case-studies/metapraxis/logo_metapraxis.png';
-import metapraxisHeadshot from './assets/case-studies/metapraxis/simon_metapraxis.png';
-
-import mondiHeadshot from './assets/case-studies/mondi-group/peter_mondi.png';
-import mondiLogo from './assets/case-studies/mondi-group/logo_mondi.png';
-
-import podHeadshot from './assets/case-studies/pod-group/charles_pod.png';
-import podLogo from './assets/case-studies/pod-group/logo_pod.png';
-
-import smartHeadshot from './assets/case-studies/smart-ideas/erica_smartideas.png';
-
-import straightHeadshot from './assets/case-studies/straight-teeth/aalok_straightteeeth.png';
-import straightLogo from './assets/case-studies/straight-teeth/logo_straightteeeth.png';
+import japan from './assets/case-studies/japan.png';
+import india from './assets/case-studies/india.png';
+import dubai from './assets/case-studies/dubai.png';
+import spain from './assets/case-studies/spain.png';
+import france from './assets/case-studies/france.png';
 
 // how to future slider assets
 import teethImg from './assets/futue-proof-slider/ortodontics.svg';
@@ -235,18 +218,18 @@ export const flipBoardData = [
 
 export const basicSlider = [
   {
-    img: mondiHeadshot, logo: mondiLogo, title: 'Japan', copy: '“Bowing is customary in several countries. In Japan it is the basic way of greeting people in a business context, instead of shaking hands”',
+    img: japan, title: 'Japan', copy: '“Bowing is customary in several countries. In Japan it is the basic way of greeting people in a business context, instead of shaking hands”',
   },
   {
-    img: straightHeadshot, logo: straightLogo, title: 'India', copy: 'Saying “no” can be considered rude, so try to talk around problems and be vague rather than outright negative.',
+    img: india, title: 'India', copy: 'Saying “no” can be considered rude, so try to talk around problems and be vague rather than outright negative.',
   },
   {
-    img: smartHeadshot, logo: books, title: 'Dubai', copy: 'In many Middle Eastern countries, it is quite normal to make guests wait.',
+    img: dubai, title: 'Dubai', copy: 'In many Middle Eastern countries, it is quite normal to make guests wait.',
   },
   {
-    img: futureBrandHeadshot, logo: futureBrandLogo, title: 'Spain', copy: 'In Spanish law, verbal contracts can be legally binding, so be careful what you say.',
+    img: spain, title: 'Spain', copy: 'In Spanish law, verbal contracts can be legally binding, so be careful what you say.',
   },
   {
-    img: imperialHeadshot, logo: imperialLogo, title: 'France', copy: 'Be formal, especially on the first meeting, and address people as “Monsieur” and “Madame”.',
+    img: france, title: 'France', copy: 'Be formal, especially on the first meeting, and address people as “Monsieur” and “Madame”.',
   },
 ];

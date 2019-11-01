@@ -9,7 +9,7 @@ import './style.scss';
 
 
 function VerticalSlider() {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState(verticalSlider);
   const [scrolled, setScrolled] = useState(0);
   const [conDimensions, setContainerDimensions] = useState(0);
   const [fixed, updateFixed] = useState(false);
@@ -39,11 +39,6 @@ function VerticalSlider() {
     });
   };
 
-  const grabData = () => {
-    setData(verticalSlider);
-    // Set mouse position to state when hovering over slider
-  };
-
   const amountScrolledandHeight = () => {
     handleScroll();
     // get amount of slider scrolled
@@ -57,11 +52,6 @@ function VerticalSlider() {
   };
 
   useEffect(() => {
-    // On mount
-    grabData();
-  }, []);
-
-  useEffect(() => {
     // on update
     window.addEventListener('scroll', amountScrolledandHeight);
     return function cleanup() {
@@ -71,7 +61,7 @@ function VerticalSlider() {
 
   return (
     <div className="vertical-slider" ref={bubbleSlider}>
-      <h2 className={`vertical-slider__title ${fixed ? 'fixed' : ''} ${titleFade ? 'fade' : ''}`} ref={bubbleTitle}>What are tariffs?</h2>
+      <h2 className={`vertical-slider__title ${fixed ? 'fixed' : ''} ${titleFade ? 'fade' : ''}`} ref={bubbleTitle}>What challenges do businesses face in becoming Future Fit?</h2>
       <div className="vertical-slider__container">
         {data.map((item, i) => {
           return (

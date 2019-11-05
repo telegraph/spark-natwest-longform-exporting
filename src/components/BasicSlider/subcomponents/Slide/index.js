@@ -16,7 +16,6 @@ export default function Slide({ getHeight, currentSlide, i, img, logo, copy, tit
       className={`basic-slider__item ${
         currentSlide === i ? 'visible' : ''
       } ${i < currentSlide ? 'prev-slide' : ''}`}
-      style={{ flexFlow: `${twoColumns ? 'column' : 'row'}` }}
     >
       <div className={`img-container ${!twoColumns ? 'img-container--headshot' : ''}`}>
         {img && <img className="img-photo" src={img} alt="company" />}

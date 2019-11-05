@@ -56,7 +56,7 @@ function Slider({ link }) {
   return (
     <div className="slider" id={link || ''}>
       <h2 className="slider__title">
-        Transforming our business landscape
+        How to get information on exporting
       </h2>
       <div className="slider__bg" />
       <div className="slider__container"
@@ -68,8 +68,8 @@ function Slider({ link }) {
             className={`container__item ${currentItem === i ? 'visible' : ''}`}
             key={`container-item-${i + 1}`}
           >
-            <h3>{item.title}</h3>
-            <p>{item.copy}</p>
+            {item.title && <h3>{item.title}</h3>}
+            {item.copy && <p dangerouslySetInnerHTML={{ __html: item.copy }} />}
           </div>
         ))}
       </div>

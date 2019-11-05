@@ -9,7 +9,7 @@ import './style.scss';
 
 
 function VerticalSlider() {
-  const [data, setData] = useState(verticalSlider);
+  const [data] = useState(verticalSlider);
   const [scrolled, setScrolled] = useState(0);
   const [conDimensions, setContainerDimensions] = useState(0);
   const [fixed, updateFixed] = useState(false);
@@ -40,6 +40,12 @@ function VerticalSlider() {
   };
 
   const amountScrolledandHeight = () => {
+    // ONly if slider in view should anything change, else return
+    if ((bubbleSlider.current.getBoundingClientRect().top - window.innerHeight) > 0 || bubbleSlider.current.getBoundingClientRect().bottom < 0) {
+      console.log('out of view');
+      return;
+    }
+
     handleScroll();
     // get amount of slider scrolled
     const value = bubbleSlider.current.getBoundingClientRect().top - window.innerHeight;

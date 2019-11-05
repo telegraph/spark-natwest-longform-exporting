@@ -78,14 +78,14 @@ export const FiveGTimeline = [
 
 export const shopSlider = [
   {
-    copy: 'The website Open to Export (opentoexport.com) has free advice on most aspects of exporting, including how to select markets, reach customers and get paid.',
+    copy: 'The website <a href="https://opentoexport.com" target="_blank" rel="noreferrer noopener">Open to Export</a> has free advice on most aspects of exporting, including how to select markets, reach customers and get paid.',
   },
   {
     copy:
-      'The Department for International Trade website gov.uk/government/organisations/department-for-international-trade) has in-depth advice for exporters, including how to create an export plan, manage payment and do business in other countries.',
+      'The <a href="https://gov.uk/government/organisations/department-for-international-trade" target="_blank" rel="noopener noreferrer">Department for International Trade website</a> has in-depth advice for exporters, including how to create an export plan, manage payment and do business in other countries.',
   },
   {
-    copy: 'The Institute of Export & International Trade website (export.org.uk) offers free tips for non-members.',
+    copy: '<a href="https://export.org.uk" target="_blank" rel="noreferrer noopener">The Institute of Export & International Trade website</a> offers free tips for non-members.',
   },
   {
     copy: 'Businesses hoping to export should speak to the Department for International Trade (DIT). ',
@@ -94,7 +94,7 @@ export const shopSlider = [
     copy: 'Local chambers of commerce and British embassies can also offer useful information to companies hoping to export goods or services.',
   },
   {
-    copy: 'CTA: For more information visit the NatWest Rethinking Business Hub.',
+    copy: '<a href="https://ad.doubleclick.net/ddm/trackclk/N8083.124621MSNUK/B22370404.240723500;dc_trk_aid=443465896;dc_trk_cid=105350124;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=" target="_blank" rel="noreferrer noopener">For more information visit the NatWest Rethinking Business Hub.</a>',
   },
 ];
 
@@ -154,37 +154,37 @@ export const verticalSlider = [
   {
     copy:
       'Tariffs are taxes imposed by governments on products imported from another country',
-    coordTop: '6',
+    coordTop: '15',
     coordRight: '60',
   },
   {
     copy:
       'In theory, tariffs make consumers buy locally produced goods by adding to the price of imports',
-    coordTop: '12',
+    coordTop: '35',
     coordRight: '15',
   },
   {
     copy:
       'They have become a major political issue in the Brexit process because of uncertainty over the tariffs that will be charged on British goods when the UK leaves the EU',
-    coordTop: '21',
+    coordTop: '50',
     coordRight: '42',
   },
   {
     copy:
       'Worries over a trade war are also affecting the global economy after US President Donald Trump introduced a 10pc tariff affecting £150bn of Chinese imports',
-    coordTop: '32',
+    coordTop: '65',
     coordRight: '20',
   },
   {
     copy:
       'Tariffs are seen as protectionist, part of a policy of restricting international trade to boost a domestic economy',
-    coordTop: '43',
+    coordTop: '75',
     coordRight: '65',
   },
   {
     copy:
       'Protectionist policies can drive up prices for consumers and harm trade if other countries retaliate with their own tariffs',
-    coordTop: '54',
+    coordTop: '85',
     coordRight: '30',
   },
 ];

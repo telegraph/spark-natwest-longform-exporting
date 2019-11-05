@@ -34,13 +34,14 @@ import trophy from './assets/titles/trophy.svg';
 import Broughttyb from './components/Broughttyb';
 import stars from './assets/stars.svg';
 import climate from './assets/titles/climate.svg';
-import risks from './assets/titles/risks.svg';
 import collaborate from './assets/titles/collaborate.svg';
 import success from './assets/titles/success.svg';
 import change from './assets/titles/change.svg';
 import innovation from './assets/titles/innovation.svg';
 import benefits from './assets/titles/benefits.svg';
 import exporting from './assets/titles/exporting.svg';
+import challenges from './assets/titles/challenges.svg';
+import truck from './assets/titles/six_trends.svg';
 
 
 function App() {
@@ -57,10 +58,7 @@ function App() {
         <AnimationTrigger>
           <p>
             <Dropcap>I</Dropcap>
-            n the year to May 2019, British exports hit £647.1bn, with goods exports rising 4.7pc to £357.1bn.
-          </p>
-          <p>
-            And the UK services sector enjoyed a 3.3pc increase in exports, bringing the UK’s trade surplus in services to £107.3bn.
+            n the year to May 2019, British exports hit £647.1bn, with goods exports rising 4.7pc to £357.1bn. And the UK services sector enjoyed a 3.3pc increase in exports, bringing the UK’s trade surplus in services to £107.3bn.
           </p>
           <p>
             Dr Liam Fox, the outgoing International Trade Secretary, said in July: “Despite the global headwinds getting stronger, today’s record-breaking statistics highlight what a real international trade policy can deliver for the UK.”
@@ -133,10 +131,10 @@ function App() {
       <Flipboard />
       <Pagebody
         title="How to start exporting"
-        img={risks}
+        img={exporting}
       >
         <AnimationTrigger>
-          <Pullquote notopborder>
+          <Pullquote notopborder nopaddingtop>
             <h3>
               Do your research
             </h3>
@@ -148,7 +146,7 @@ function App() {
           </Pullquote>
         </AnimationTrigger>
         <AnimationTrigger>
-          <Pullquote notopborder>
+          <Pullquote notopborder nopaddingtop>
             <h3>
               Start small
             </h3>
@@ -160,7 +158,7 @@ function App() {
           </Pullquote>
         </AnimationTrigger>
         <AnimationTrigger>
-          <Pullquote notopborder>
+          <Pullquote notopborder nopaddingtop>
             <h3>
               Do not miss out on available help
             </h3>
@@ -172,7 +170,7 @@ function App() {
           </Pullquote>
         </AnimationTrigger>
         <AnimationTrigger>
-          <Pullquote notopborder>
+          <Pullquote notopborder nopaddingtop>
             <h3>
               Make contacts
             </h3>
@@ -184,7 +182,7 @@ function App() {
           </Pullquote>
         </AnimationTrigger>
         <AnimationTrigger>
-          <Pullquote notopborder>
+          <Pullquote notopborder nopaddingtop>
             <h3>
               Make sure there are no financial surprises
             </h3>
@@ -199,7 +197,7 @@ function App() {
       <BasicSlider title="Global business customs exporters need to know" dataProp={basicSlider} columns={false} />
       <Pagebody
         title="How can your business overcome challenges to exporting?"
-        img={success}
+        img={challenges}
       >
         <AnimationTrigger>
           <p>
@@ -207,7 +205,7 @@ function App() {
           </p>
         </AnimationTrigger>
         <AnimationTrigger>
-          <Pullquote notopborder>
+          <Pullquote notopborder nopaddingtop>
             <h3>
               Stay on top of your sector
             </h3>
@@ -223,7 +221,7 @@ function App() {
           </Pullquote>
         </AnimationTrigger>
         <AnimationTrigger>
-          <Pullquote notopborder>
+          <Pullquote notopborder nopaddingtop>
             <h3>
               Trademark your offering
             </h3>
@@ -237,7 +235,7 @@ function App() {
           </Pullquote>
         </AnimationTrigger>
         <AnimationTrigger>
-          <Pullquote notopborder>
+          <Pullquote notopborder nopaddingtop>
             <h3>
               Plan, plan, plan
             </h3>
@@ -254,7 +252,7 @@ function App() {
       <Slider />
       <Pagebody
         title="Six trends to help future-proof your export business"
-        img={change}
+        img={truck}
         noPadding
       >
         <AnimationTrigger>

@@ -45,7 +45,7 @@ import truck from './assets/titles/six_trends.svg';
 
 
 function App() {
-  
+
   useEffect(() => {
     analytics.send('App Loaded');
   }, []);
@@ -90,7 +90,7 @@ function App() {
               Reduced production costs
             </h3>
             <p>
-              “If the foreign market is big enough, this demand could help you reduce your production costs and increase your profit margin further,” explains Mr Salter. Your price per unit of manufacture may benefit from economies of scale, but this needs to be offset against the increased costs of distribution[MC(M1] .”
+              “If the foreign market is big enough, this demand could help you reduce your relative production costs and increase your profit margin further,” explains Mr Salter. Your price per unit of manufacture may benefit from economies of scale, but this needs to be offset against the increased costs of distribution[MC(M1] .”
             </p>
           </Pullquote>
         </AnimationTrigger>
@@ -262,7 +262,7 @@ function App() {
             </h3>
             <p>
               Britain has a highly advanced e-commerce landscape, and the technology sector looks set to continue to be central to Britain’s growth.
-  
+
               E-commerce sales by UK businesses with 10 employees or more were £560bn in 2017, rising from £484bn in 2016, according to the Office for National Statistics.
             </p>
           </Pullquote>
@@ -311,7 +311,7 @@ function App() {
             </h3>
             <p>
               In 2017, exports accounted for 30pc of Britain’s GDP, leading the Government to announce an ambitious goal to drive this towards 35pc via a campaign to educate, connect and finance small businesses.
-  
+
               In a statement, the Department for International Trade said: “Our ambition is to strengthen our position as one of the 21st century’s great trading nations.”
             </p>
           </Pullquote>
